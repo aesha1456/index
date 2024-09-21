@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Centre</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+  <div class="content">
+  <!--- Particle Effect Layer -->
+  <div class="particles"></div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Animated Header -->
+    <div class="contact-info">
+        <h1 class="game-logo">𝔾𝕒𝕞𝕖 ℂ𝕖𝕟𝕥𝕖𝕣</h1>
+        <span><p>📞 +91 63517 65427&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp✉ info@gamecenter.com</p></span>
+        <button id="audioButton" onclick="toggleAudio()">🔔</button>
+      </div>
+    <header>
+      <nav class="option">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Content Area -->
+    <section class="main-content">
+      <h2>Explore Amazing Games</h2>
+      <p>Dive into a world of adventure, action, and excitement. Choose your game and start your journey now!</p>
+      <div class="game-dropdown">
+        <div class="dropdown-box" onclick="toggleDropdown()">
+          <p class="dropdown-prompt">What would you like to play?</p>
+          <span class="arrow">&#9662;</span>
+        </div>
+        <ul class="dropdown-menu" id="gameMenu">
+          <li class="game-item">Scrambling the Word</li>
+          <li class="game-item">Fast Typing</li>
+          <li class="game-item">Quiz</li>
+        </ul>
+      </div>
+      
+    </section>
+  
+
+  <!-- Footer Section -->
+<footer>
+    <ul class="socials">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Game Center | Designed by <span>Game Center Team</span></p>
+  </div>
+</footer> 
+</div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
